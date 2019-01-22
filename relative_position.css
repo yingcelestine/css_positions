@@ -1,0 +1,37 @@
+body {
+    font-size: 34px;
+    margin: 30px;
+    background-color: yellow;
+    border: 2px solid;
+}
+
+.common {
+    font-size: 30px;
+    color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.parent {
+    top: 0px;
+    right: 0px;
+}
+
+.red {
+    background-color: red;
+    /* relative to itself */
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.b {
+    position: relative;
+    top: 0.2em;
+}
